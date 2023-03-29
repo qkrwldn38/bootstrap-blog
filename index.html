@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap을 이용한 블로그</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">밧쥬의 블로그</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">홈으로</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">개인정보</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contant.html">포트폴리오</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hobby.html">나의 관심사</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="text-center bg-light pt-5 pb-5">
+        <div class="container">
+            <h1 class="display-3">안녕 날 소개하지~</h1>
+            <h2>Let me introduce myselfmyself~🎵</h2>
+            <p>밧쥬의 개인정보, 약간의 포트폴리오, 요즘 최대 관심사에 관하여~</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="wldn.png.jpg" class="img-rounded" width="200">
+            </div>
+            <div class="col-md-4">
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F030%2F2021%2F07%2F26%2F0002959615_001_20210726101403782.jpg&type=sc960_832"
+                    class="img-rounded" width="200">
+            </div>
+            <div class="col-md-4">
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F472%2F2019%2F01%2F15%2F0000015929_002_20190115134108476.jpg&type=sc960_832"
+                    class="img-rounded" width="200">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="page-header">공지사항 <small>Notice</small></h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>첫번째</strong> 공지사항이랄게 딱히 없어서 그냥 끄적끄적
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>두번째</strong> 여기도 두번째긴한데 공지할건 없고 그냥 이것저것
+                        메뉴에 포트폴리오를 누르시면 야금야금 연습해본 html이나 지난시간에 만든 웹데모가
+                        나온답니다!!
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>세번째</strong> 여기는 세번째인데 요즘 관심사인 야구에 대해 살짝 쿵 써봐야겠다
+                        자세한 내용은 메뉴에 나의 관심사를 누르시면 사진도 있습니당!!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted"> &copy; Copyright 2023 - 중부대학교 정보보호학과 박지우</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

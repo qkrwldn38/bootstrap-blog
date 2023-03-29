@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap을 이용한 블로그</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">밧쥬의 블로그</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">홈으로</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">개인정보</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contant.html">포트폴리오</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="hobby.html">나의 관심사</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br>
+
+    <div class="container">
+        <h3 class="bg-primary-subtle text-emphasis-primary">나의 관심사</h3>
+        <br>
+        <p>그건 바로바로~~ 야구⚾</p>
+        <p>내가 좋아하는 야구선수들~~</p>
+        <p>옆으로 넘기면 다른 선수도 나온답니다^^^</p>
+    </div>
+
+
+    <div id="carouselExample" class="carousel slide container">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.heroesbaseball.co.kr/files/player_photo.1//2023/03/21/6d76a21e-fb8d-4b20-826f-9dce9b13dbeb.jpg"
+                    class="w-20" width="600" alt="김건희">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.heroesbaseball.co.kr/files/player_photo.1//2023/03/22/b5d1c4f0-0895-4f07-9404-37b86253cf4d.jpg"
+                    class="d-block w-20" width="600" alt="장재영">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.heroesbaseball.co.kr/files/player_photo.1//2023/03/21/e6680c77-3ffe-4dbe-97b7-2d86c740d42b.jpg"
+                    class="d-block w-20" width="600" alt="김동헌">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <hr>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted"> &copy; Copyright 2023 - 중부대학교 정보보호학과 박지우</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
